@@ -1,47 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devansh Srivastava</title>
+    <title>John Doe - Portfolio &amp; Blog</title>
     <link>http://localhost:3000/</link>
-    <description>Recent content on Devansh Srivastava</description>
+    <description>Recent content on John Doe - Portfolio &amp; Blog</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 23 Apr 2025 21:55:00 +0530</lastBuildDate>
+    <language>en</language>
     <atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:3000/about/</link>
-      <pubDate>Wed, 23 Apr 2025 21:55:00 +0530</pubDate>
-      <guid>http://localhost:3000/about/</guid>
-      <description>&lt;p&gt;I am a B.Tech student at IIIT Naya Raipur, specializing in Data Science and Artificial Intelligence.&lt;/p&gt;&#xA;&lt;p&gt;I am an ardent tech enthusiast who loves working on various domains of this ever-growing tech industry.&lt;/p&gt;&#xA;&lt;p&gt;I am passionate about open source contributions, get excited about latest developments in the field of AI and automation.&lt;/p&gt;&#xA;&lt;p&gt;I am also keen about understanding the ever so amazing world of Web 3.&lt;/p&gt;&#xA;&lt;p&gt;I am quite zealous about systems programming the nitty-grities of Operating Systems such as Linux.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:3000/blog/</link>
-      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
-      <guid>http://localhost:3000/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:3000/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:3000/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/experience/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:3000/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/projects/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

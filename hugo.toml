@@ -7,6 +7,75 @@ theme = 'hugo-noir'
 relativeURLs = true
 canonifyURLs = true
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "John Doe - Portfolio & Blog"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Projects"
+        pageRef = "/projects"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Blog"
+        pageRef = "/blogs" # Assumes a section named 'blogs'
+        weight = 4
+      [[languages.en.menu.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 5
+
+  # Example for Spanish (es) - uncomment and adapt if needed
+  # [languages.es]
+  #   languageName = "Español"
+  #   title = "John Doe - Portafolio y Blog"
+  #   weight = 2
+  #   contentDir = "content/es"
+  #   [languages.es.menu]
+  #     [[languages.es.menu.main]]
+  #       name = "Sobre Mí"
+  #       pageRef = "/about"
+  #       weight = 1
+  #     [[languages.es.menu.main]]
+  #       name = "Experiencia"
+  #       pageRef = "/experience"
+  #       weight = 2
+  #     [[languages.es.menu.main]]
+  #       name = "Proyectos"
+  #       pageRef = "/projects"
+  #       weight = 3
+  #     [[languages.es.menu.main]]
+  #       name = "Blog"
+  #       pageRef = "/blogs"
+  #       weight = 4
+  #     [[languages.es.menu.main]]
+  #       name = "Contacto"
+  #       pageRef = "/contact"
+  #       weight = 5
+
+  # Example for French (fr) - uncomment and adapt if needed
+  # [languages.fr]
+  #   languageName = "Français"
+  #   title = "John Doe - Portfolio et Blog"
+  #   weight = 3
+  #   contentDir = "content/fr"
+  #   [languages.fr.menu]
+  #     [[languages.fr.menu.main]]
+  #       name = "À Propos"
+  #       pageRef = "/about"
+  #       weight = 1
+  #     # ... other French menu items
+
 # Taxonomy configuration
 [taxonomies]
   category = "categories"
@@ -15,7 +84,7 @@ canonifyURLs = true
 
 [params]
 name = "Devansh Srivastava"
-location = "Ballis, India"
+location = "Ballia, India"
 description = "Open Source contributor, Full Stack, Web3 and AI"
 profile_image = "/images/profile.jpg"
 
@@ -30,6 +99,9 @@ linkedin_username = "devanshsrivastava2010"
 discord = "lucifer_2010"
 leetcode = "https://leetcode.com/devanshsrv"
 leetcode_username = "devanshsrv"
+kaggle ="https://www.kaggle.com/devanshsrv" 
+kaggle_username = "devanshsrv"
+instagram = "https://www.instagram.com/devansh2010/"
 
 [[params.experience]]
 company = "GitHub"
@@ -37,6 +109,18 @@ role = "Open Source Contributor"
 period = "June 2023 - Present"
 description = "Contributing to open source projects"
 github_username = "devansh-srv"
+
+[[params.experience]]
+company = "IIT Ropar"
+role = "Research Intern"
+period = "May 2025 - Present"
+description = "Contributing to MERN stack Projects"
+github_username = "devansh-srv"
+
+[[params.honors]]
+institution = "IIIT Naya Raipur"
+title = "9.26"
+date = "December 2024"
 
 [[params.projects]]
 title = "Carbon Credits"
