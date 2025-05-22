@@ -1,0 +1,37 @@
+<!-- Footer -->
+<footer class="mt-32 text-center">
+    <div class="mx-auto max-w-3xl">
+        <div class="pt-5 border-t border-gray-800">
+            <div class="flex flex-col gap-2 justify-center items-center">
+                <p class="text-gray-500 text-xm">© {{ now.Format "2006" }} {{ .Site.Params.name }}</p>
+                <p class="pb-12 text-gray-500 text-xm">Built using <a href="https://gohugo.io/" target="_blank"
+                        class="text-gray-400 hover:text-gray-200 animated-link">Hugo</a>. Take a look at my <a
+                        href="https://github.com/devansh-srv/" target="_blank"
+                        class="text-gray-400 hover:text-gray-200 animated-link">GitHub</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .animated-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .animated-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        bottom: -1px;
+        left: 0;
+        background-color: #ffffff;
+        transition: width 0.3s ease-in-out;
+    }
+
+    .animated-link:hover::after {
+        width: 100%;
+    }
+</style>

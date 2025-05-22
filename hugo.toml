@@ -1,0 +1,85 @@
+baseURL = "https://example.com"
+languageCode = 'en-us'
+title = 'Devansh Srivastava'
+theme = 'hugo-noir'
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+[params]
+name = "Devansh Srivastava"
+location = "Ballis, India"
+description = "Open Source contributor, Full Stack, Web3 and AI"
+profile_image = "/images/profile.jpg"
+
+# Social Media Links
+github = "https://github.com/devansh-srv"
+github_username = "devansh-srv"
+email = "devansh.srv@gmail.com"
+# twitter = "https://twitter.com/yourusername"
+linkedin = "www.linkedin.com/in/devanshsrivastava2010"
+linkedin_username = "devanshsrivastava2010"
+# instagram = "https://instagram.com/yourusername"
+discord = "lucifer_2010"
+leetcode = "https://leetcode.com/devanshsrv"
+leetcode_username = "devanshsrv"
+
+[[params.experience]]
+company = "GitHub"
+role = "Open Source Contributor"
+period = "June 2023 - Present"
+description = "Contributing to open source projects"
+github_username = "devansh-srv"
+
+[[params.projects]]
+title = "Carbon Credits"
+description = "A decentralized Carbon Credit trading platform leveraging React, Flask, and Solidity, promoting transparency and accountability in CSR activities."
+tech = "Ethereum, Sepolia API, Hardhat, EthersJs "
+image = "./assets/carbon.png"
+link = "https://github.com/devansh-srv/Carbon-Credit"
+
+[[params.projects]]
+title = "Carrot"
+description = "A Redis-like Key-Value Database which supports basic KV operations and sorted sets"
+tech = "C, CMake, Event Loops, Data Structures"
+image = "./assets/carrot.png"
+link = "https://github.com/devansh-srv/carrot"
+
+[[params.blogs]]
+title = "Blog Post Title"
+date = "2023-01-15"
+summary = "Brief summary of what the blog post is about."
+tags = ["tag1", "tag2", "tag3"]
+content = """
+Short excerpt or introduction to the blog post...
+"""
+link = "https://yourblog.com/post-url"
+
+[menu]
+  [[menu.main]]
+    name = "About Me"
+    url = "/about/"
+    weight = 1
+  # [[menu.main]]
+  #   name = "Experience"
+  #   url = "/experience/"
+  #   weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  # [[menu.main]]
+  #   name = "Blog"
+  #   url = "/blog/"
+  #   weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 3
