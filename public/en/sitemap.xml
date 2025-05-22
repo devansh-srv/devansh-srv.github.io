@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:3000/en/about/</loc>
+    <lastmod>2025-04-23T21:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/</loc>
+    <lastmod>2025-04-23T21:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/categories/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/tags/hugo/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/blog/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/tags/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/categories/tutorials/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/tags/web-development/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:3000/en/contact/</loc>
+  </url><url>
+    <loc>http://localhost:3000/en/experience/</loc>
+  </url><url>
+    <loc>http://localhost:3000/en/projects/</loc>
+  </url>
+</urlset>

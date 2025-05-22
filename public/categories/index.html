@@ -1,112 +1,125 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Categories - John Doe - Portfolio &amp; Blog</title>
-        
-        
-        <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:3000/favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:3000/favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:3000/favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="http://localhost:3000/favicon_io/site.webmanifest">        
-        <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
-        <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style">
-        
-        
-        <style>
-            html, body {
-                background-color: #121212;
-                color: #f3f4f6;
-            }            
-            .border {
-                border-color: #374151;
-            }            
-            .carousel-item {
-                display: inline-block;
-                margin: 0 1rem;
-            }            
-            .flex {
-                display: flex;
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - John Doe - Portfolio &amp; Blog</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:3000/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:3000/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:3000/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:3000/favicon_io/site.webmanifest">
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style">
+    <style>
+        html,
+        body {
+            background-color: #FFFFFF;
+            color: #1f2937;
+        }
+
+        html.dark,
+        html.dark body {
+            background-color: #121212;
+            color: #f3f4f6;
+        }
+
+        .border {
+            border-color: #d4d4d8;
+        }
+
+        html.dark .border {
+            border-color: #374151;
+        }
+
+        .carousel-item {
+            display: inline-block;
+            margin: 0 1rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        @media (min-width: 768px) {
+            .md\:flex-row {
+                flex-direction: row;
             }
-            .flex-col {
-                flex-direction: column;
-            }
-            
-            @media (min-width: 768px) {
-                .md\:flex-row {
-                    flex-direction: row;
-                }
-            }
-            
-            .tech-carousel {
-                overflow: hidden;
-                width: 100%;
-                padding: 1rem 0;
-            }
-            
-            .carousel-track {
-                white-space: nowrap;
-            }
-        </style>
-        
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        <script>
-            
-            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-            }
-        </script>
-        <style>
-            :root {
-                color-scheme: dark;
-            }
-            
-            body {
-                @apply bg-[#121212] text-gray-100;
+        }
+
+        .tech-carousel {
+            overflow: hidden;
+            width: 100%;
+            padding: 1rem 0;
+        }
+
+        .carousel-track {
+            white-space: nowrap;
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        .tech-icon {
+            filter: grayscale(100%) brightness(200%);
+            transition: all 0.3s ease;
+        }
+
+        .tech-icon:hover {
+            filter: none;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
             }
 
-            .tech-icon {
-                filter: grayscale(100%) brightness(200%);
-                transition: all 0.3s ease;
+            100% {
+                transform: translateX(-100%);
             }
-            .tech-icon:hover {
-                filter: none;
-            }
-            
-            @keyframes scroll {
-                0% {
-                    transform: translateX(0);
-                }
-                100% {
-                    transform: translateX(-100%);
-                }
-            }
-            
-            .tech-carousel {
-                width: 100%;
-                padding: 1rem 0;
-            }
-            
-            .tech-track {
-                width: fit-content;
-                animation: scroll 20s linear infinite;
-            }
-            
-            .tech-track:hover {
-                animation-play-state: paused;
-            }
-            
-            .tech-slide {
-                float: left;
-            }
-        </style>
-    </head>
-    <body class="min-h-screen bg-[#121212] text-gray-100">
-        
+        }
+
+        .tech-carousel {
+            width: 100%;
+            padding: 1rem 0;
+        }
+
+        .tech-track {
+            width: fit-content;
+            animation: scroll 20s linear infinite;
+        }
+
+        .tech-track:hover {
+            animation-play-state: paused;
+        }
+
+        .tech-slide {
+            float: left;
+        }
+    </style>
+</head>
+
+<body
+    class="min-h-screen bg-bg-primary-light text-text-primary-light dark:bg-bg-primary-dark dark:text-text-primary-dark">
+    
 
 <head>
     
@@ -194,15 +207,15 @@
             
             <nav class="hidden flex-wrap gap-4 justify-center items-center md:flex md:gap-6">
                 
-                <a href="http://localhost:3000/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">About</a>
+                <a href="http://localhost:3000/about/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">About</a>
                 
-                <a href="http://localhost:3000/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Experience</a>
+                <a href="http://localhost:3000/experience/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Experience</a>
                 
-                <a href="http://localhost:3000/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Projects</a>
+                <a href="http://localhost:3000/projects/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Projects</a>
                 
-                <a href="http://localhost:3000/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Blog</a>
+                <a href="http://localhost:3000/contact/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Contact</a>
                 
-                <a href="http://localhost:3000/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Contact</a>
+                <a href="http://localhost:3000/about/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">About Me</a>
                 
             </nav>
             <div class="hidden justify-end items-center md:flex">
@@ -310,15 +323,15 @@
             </div>
             <nav class="flex flex-col p-6 space-y-4">
                 
-                <a href="http://localhost:3000/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>About</a>
+                <a href="http://localhost:3000/about/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>About</a>
                 
-                <a href="http://localhost:3000/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Experience</a>
+                <a href="http://localhost:3000/experience/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Experience</a>
                 
-                <a href="http://localhost:3000/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Projects</a>
+                <a href="http://localhost:3000/projects/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Projects</a>
                 
-                <a href="http://localhost:3000/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Blog</a>
+                <a href="http://localhost:3000/contact/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Contact</a>
                 
-                <a href="http://localhost:3000/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Contact</a>
+                <a href="http://localhost:3000/about/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>About Me</a>
                 
             </nav>
             <div class="p-6 mt-auto">
@@ -460,26 +473,36 @@
     });
 </script>
 
-        <main>
-            
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">Categories</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <main>
+        
+<div class="container py-12 px-4 mx-auto">
+    <h1 class="mb-8 text-4xl font-bold">Categories</h1>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div class="p-6 rounded-lg border border-gray-700 bg-[#1a1a1a]">
+            <a href="../categories/tutorials/" class="text-xl font-semibold hover:text-gray-300">
+                Tutorials
+            </a>
+            <span class="ml-2 text-gray-400">(1)</span>
+        </div>
         
     </div>
 </div>
 
-        </main>
-        
+    </main>
+    
 <footer class="mt-32 text-center">
     <div class="mx-auto max-w-3xl">
-        <div class="pt-5 border-t border-gray-800">
+        <div class="pt-5 border-t border-border-primary-light dark:border-border-primary-dark">
             <div class="flex flex-col gap-2 justify-center items-center">
-                <p class="text-gray-500 text-xm">© 2025 Devansh Srivastava</p>
-                <p class="pb-12 text-gray-500 text-xm">Built using <a href="https://gohugo.io/" target="_blank"
-                        class="text-gray-400 hover:text-gray-200 animated-link">Hugo</a>. Take a look at my <a
-                        href="https://github.com/devansh-srv/" target="_blank"
-                        class="text-gray-400 hover:text-gray-200 animated-link">GitHub</a></p>
+                
+                <p class="text-text-secondary-light text-xm dark:text-text-secondary-dark">© 2025 Pranam Shetty</p>
+                <p class="pb-12 text-text-secondary-light text-xm dark:text-text-secondary-dark">Built using <a
+                        href="https://gohugo.io/" target="_blank"
+                        class="animated-link text-accent-light dark:text-accent-dark dark:hover:text-text-primary-dark hover:text-text-primary-light">Hugo</a>.
+                    Take a look at my <a href="https://github.com/prxshetty" target="_blank"
+                        class="animated-link text-accent-light dark:text-accent-dark dark:hover:text-text-primary-dark hover:text-text-primary-light">GitHub</a>
+                </p>
             </div>
         </div>
     </div>
@@ -499,14 +522,21 @@
         height: 1px;
         bottom: -1px;
         left: 0;
-        background-color: #ffffff;
+        background-color: #0284c7;
+         
         transition: width 0.3s ease-in-out;
     }
 
     .animated-link:hover::after {
         width: 100%;
     }
+
+    html.dark .animated-link::after {
+        background-color: #0ea5e9;
+         
+    }
 </style>
 
-    </body>
-</html> 
+</body>
+
+</html>

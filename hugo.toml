@@ -7,15 +7,19 @@ theme = 'hugo-noir'
 relativeURLs = true
 canonifyURLs = true
 
+# Multilingual configuration
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
 [languages]
   [languages.en]
     languageName = "English"
-    title = "John Doe - Portfolio & Blog"
+    title = "Devansh Srivastava"
     weight = 1
     contentDir = "content/en"
     [languages.en.menu]
       [[languages.en.menu.main]]
-        name = "About"
+        name = "About Me"
         pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
         weight = 1
       [[languages.en.menu.main]]
@@ -26,14 +30,14 @@ canonifyURLs = true
         name = "Projects"
         pageRef = "/projects"
         weight = 3
-      [[languages.en.menu.main]]
-        name = "Blog"
-        pageRef = "/blogs" # Assumes a section named 'blogs'
-        weight = 4
+      # [[languages.en.menu.main]]
+      #   name = "Blog"
+      #   pageRef = "/blogs" # Assumes a section named 'blogs'
+      #   weight = 4
       [[languages.en.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 5
+        weight = 4
 
   # Example for Spanish (es) - uncomment and adapt if needed
   # [languages.es]
@@ -92,10 +96,8 @@ profile_image = "/images/profile.jpg"
 github = "https://github.com/devansh-srv"
 github_username = "devansh-srv"
 email = "devansh.srv@gmail.com"
-# twitter = "https://twitter.com/yourusername"
 linkedin = "www.linkedin.com/in/devanshsrivastava2010"
 linkedin_username = "devanshsrivastava2010"
-# instagram = "https://instagram.com/yourusername"
 discord = "lucifer_2010"
 leetcode = "https://leetcode.com/devanshsrv"
 leetcode_username = "devanshsrv"
@@ -103,67 +105,67 @@ kaggle ="https://www.kaggle.com/devanshsrv"
 kaggle_username = "devanshsrv"
 instagram = "https://www.instagram.com/devansh2010/"
 
-[[params.experience]]
-company = "GitHub"
-role = "Open Source Contributor"
-period = "June 2023 - Present"
-description = "Contributing to open source projects"
-github_username = "devansh-srv"
+# [[params.experience]]
+# company = "GitHub"
+# role = "Open Source Contributor"
+# period = "June 2023 - Present"
+# description = "Contributing to open source projects"
+# github_username = "devansh-srv"
+#
+# [[params.experience]]
+# company = "IIT Ropar"
+# role = "Research Intern"
+# period = "May 2025 - Present"
+# description = "Contributing to MERN stack Projects"
+# github_username = "devansh-srv"
+#
+# [[params.honors]]
+# institution = "IIIT Naya Raipur"
+# title = "9.26"
+# date = "December 2024"
 
-[[params.experience]]
-company = "IIT Ropar"
-role = "Research Intern"
-period = "May 2025 - Present"
-description = "Contributing to MERN stack Projects"
-github_username = "devansh-srv"
-
-[[params.honors]]
-institution = "IIIT Naya Raipur"
-title = "9.26"
-date = "December 2024"
-
-[[params.projects]]
-title = "Carbon Credits"
-description = "A decentralized Carbon Credit trading platform leveraging React, Flask, and Solidity, promoting transparency and accountability in CSR activities."
-tech = "Ethereum, Sepolia API, Hardhat, EthersJs "
-image = "./assets/carbon.png"
-link = "https://github.com/devansh-srv/Carbon-Credit"
-
-[[params.projects]]
-title = "Carrot"
-description = "A Redis-like Key-Value Database which supports basic KV operations and sorted sets"
-tech = "C, CMake, Event Loops, Data Structures"
-image = "./assets/carrot.png"
-link = "https://github.com/devansh-srv/carrot"
-
-[[params.blogs]]
-title = "Blog Post Title"
-date = "2023-01-15"
-summary = "Brief summary of what the blog post is about."
-tags = ["tag1", "tag2", "tag3"]
-content = """
-Short excerpt or introduction to the blog post...
-"""
-link = "https://yourblog.com/post-url"
-
+# [[params.projects]]
+# title = "Carbon Credits"
+# description = "A decentralized Carbon Credit trading platform leveraging React, Flask, and Solidity, promoting transparency and accountability in CSR activities."
+# tech = "Ethereum, Sepolia API, Hardhat, EthersJs "
+# image = "./assets/carbon.png"
+# link = "https://github.com/devansh-srv/Carbon-Credit"
+#
+# [[params.projects]]
+# title = "Carrot"
+# description = "A Redis-like Key-Value Database which supports basic KV operations and sorted sets"
+# tech = "C, CMake, Event Loops, Data Structures"
+# image = "./assets/carrot.png"
+# link = "https://github.com/devansh-srv/carrot"
+#
+# [[params.blogs]]
+# title = "Blog Post Title"
+# date = "2023-01-15"
+# summary = "Brief summary of what the blog post is about."
+# tags = ["tag1", "tag2", "tag3"]
+# content = """
+# Short excerpt or introduction to the blog post...
+# """
+# link = "https://yourblog.com/post-url"
+#
 [menu]
   [[menu.main]]
     name = "About Me"
-    url = "/about/"
+    pageRef = "/about"
     weight = 1
-  # [[menu.main]]
-  #   name = "Experience"
-  #   url = "/experience/"
-  #   weight = 2
+  [[menu.main]]
+    name = "Experience"
+    pageRef = "/experience"
+    weight = 2
   [[menu.main]]
     name = "Projects"
-    url = "/projects/"
-    weight = 2
+    pageRef = "/projects"
+    weight = 3
   # [[menu.main]]
   #   name = "Blog"
   #   url = "/blog/"
-  #   weight = 4
+  #   weight = 5
   [[menu.main]]
     name = "Contact Me"
-    url = "/contact/"
-    weight = 3
+    pageRef = "/contact"
+    weight = 5
