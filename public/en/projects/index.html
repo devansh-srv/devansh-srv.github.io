@@ -420,364 +420,106 @@
 </script> 
         <main>
             
-<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
-    <h1 class="text-3xl md:text-5xl font-bold mb-8 md:mb-12 text-text-primary-light dark:text-text-primary-dark">Projects</h1>
-    
-    <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
+<div class="py-12 px-4 mx-auto w-full md:w-3/4 lg:w-1/2">
+    <h1 class="mb-8 text-3xl font-bold md:mb-12 md:text-5xl text-text-primary-light dark:text-text-primary-dark">Projects</h1>
+
+    <div class="grid grid-cols-1 gap-6 mx-auto max-w-3xl md:gap-8">
         
         
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/swarm_lang2.png" alt="Emergency Travel Response System" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
+        <div
+            class="overflow-hidden relative rounded-lg border transition-all duration-300 project-card bg-bg-primary-light border-border-primary-light group dark:bg-bg-secondary-dark dark:border-border-primary-dark">
+            <div class="overflow-hidden relative aspect-w-16 aspect-h-9">
+                <div
+                    class="absolute inset-0 z-10 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20">
+                </div>
+                <img src="../../assets/carbon.png" alt="Carbon Credits"
+                    class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 z-20 bg-gradient-to-t to-transparent opacity-60 from-black/90 via-black/50">
+                </div>
+
                 
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Emergency Travel Response System</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                <div
+                    class="flex absolute inset-0 z-30 flex-col justify-end p-4 pb-3 transition-transform duration-500 transform translate-y-0 md:p-6 md:pb-4 group-hover:translate-y-[-20px]">
+                    <h3 class="mb-1.5 text-xl font-bold text-white md:mb-2 md:text-2xl line-clamp-2">Carbon Credits</h3>
+                    <div class="flex flex-wrap gap-1 mb-1.5 md:gap-2 md:mb-3">
                         
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]">Ethereum</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> LangChain</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> Sepolia API</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> LangSmith</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> Hardhat</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> LangGraph</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> OpenAI API</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> EthersJs </span>
                         
                     </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">A sophisticated multi-agent system leveraging LangGraph&#39;s Swarm architecture, LangSmith and OpenAI to coordinate emergency travel assistance through specialized AI agents. Features multi-agent collaboration, real-time monitoring and modular architecture.</p>
+                    <p class="hidden mb-3 text-sm text-white md:block line-clamp-3 md:line-clamp-4">A decentralized Carbon Credit trading platform leveraging React, Flask, and Solidity, promoting transparency and accountability in CSR activities.
+                    </p>
+
                     
-                    
-                    <a href="https://github.com/prxshetty/emergency-travel-orchestrator" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
+                    <a href="https://github.com/devansh-srv/Carbon-Credit"
+                        class="inline-block flex items-center py-1 px-2 text-xs font-medium rounded-md shadow-lg opacity-100 transition-all duration-300 transform md:py-1.5 md:px-3 md:text-sm md:opacity-0 dark:text-white group-hover:opacity-100 hover:shadow-xl bg-accent-light/90 backdrop-blur-sm text-neutral-800 w-fit dark:bg-accent-dark/90 dark:hover:bg-accent-dark hover:bg-accent-light">
                         Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="ml-1 w-3.5 h-3.5 transition-transform duration-200 transform group-hover:translate-x-1"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </a>
                 </div>
             </div>
         </div>
         
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/lumi.png" alt="Lumi - Realtime Adaptive Voice Assistant" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Lumi - Realtime Adaptive Voice Assistant</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Chainlit</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Speechmatics Flow</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> LangChain</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> SQLite</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Grok API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> AlphaVantage API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> DALL-E</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Built in 24 hours at BrickHack 11, Lumi is a real-time voice assistant with 10 custom tools such as script execution, web searches, AI image generation, and more—all controllable by voice with interruption capabilities.</p>
-                    
-                    
-                    <a href="https://devpost.com/software/lumi-personal-ai-assistant" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
+        <div
+            class="overflow-hidden relative rounded-lg border transition-all duration-300 project-card bg-bg-primary-light border-border-primary-light group dark:bg-bg-secondary-dark dark:border-border-primary-dark">
+            <div class="overflow-hidden relative aspect-w-16 aspect-h-9">
+                <div
+                    class="absolute inset-0 z-10 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20">
                 </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/jobtrail.png" alt="JobTrail - Web Development" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">JobTrail - Web Development</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">JavaScript</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Gmail API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> TypeScript</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> OpenAI API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Google Cloud Platform</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Job Trail is a Chrome extension that automatically categorizes Gmail emails related to job applications based on their content.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/jobtrail" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
+                <img src="../../assets/carrot.png" alt="Carrot"
+                    class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110">
+                <div
+                    class="absolute inset-0 z-20 bg-gradient-to-t to-transparent opacity-60 from-black/90 via-black/50">
                 </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/depth-seg.png" alt="Depth Segmentation - Computer Vision" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
+
                 
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Depth Segmentation - Computer Vision</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
+                <div
+                    class="flex absolute inset-0 z-30 flex-col justify-end p-4 pb-3 transition-transform duration-500 transform translate-y-0 md:p-6 md:pb-4 group-hover:translate-y-[-20px]">
+                    <h3 class="mb-1.5 text-xl font-bold text-white md:mb-2 md:text-2xl line-clamp-2">Carrot</h3>
+                    <div class="flex flex-wrap gap-1 mb-1.5 md:gap-2 md:mb-3">
                         
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">MiDaS</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]">C</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> PyTorch</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> CMake</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Scikit-image</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> Event Loops</span>
                         
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Intel</span>
+                        <span
+                            class="py-0.5 px-1.5 font-medium text-white rounded-md md:px-2 md:text-xs bg-neutral-700/30 backdrop-blur-sm text-[10px]"> Data Structures</span>
                         
                     </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Trying out Intel&#39;s MiDaS Model with greyscale and Upscaler for better results.</p>
+                    <p class="hidden mb-3 text-sm text-white md:block line-clamp-3 md:line-clamp-4">A Redis-like Key-Value Database which supports basic KV operations and sorted sets
+                    </p>
+
                     
-                    
-                    <a href="https://github.com/prxshetty/midas-depthseg" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
+                    <a href="https://github.com/devansh-srv/carrot"
+                        class="inline-block flex items-center py-1 px-2 text-xs font-medium rounded-md shadow-lg opacity-100 transition-all duration-300 transform md:py-1.5 md:px-3 md:text-sm md:opacity-0 dark:text-white group-hover:opacity-100 hover:shadow-xl bg-accent-light/90 backdrop-blur-sm text-neutral-800 w-fit dark:bg-accent-dark/90 dark:hover:bg-accent-dark hover:bg-accent-light">
                         Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/llm-chatbot.png" alt="Resume Chatbot - Natural Language Processing" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Resume Chatbot - Natural Language Processing</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> OpenAI API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Supabase</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> LangChain</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">LLM Chatbot using Supabase for vectorStore, OpenAI API for embeddings with adjusted chunk size and overlaps for Resumes.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/resume-chatbot" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/llm-scratch.jpg" alt="Large Language Model - Deep Learning" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Large Language Model - Deep Learning</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> PyTorch</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Neural Networks</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Statistics</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">A machine learning project to build a large language model from scratch, inspired by Karpathy&#39;s nn.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/karpathy-nn" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/automail_ai.png" alt="AutoMail AI - Natural Language Processing" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">AutoMail AI - Natural Language Processing</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> NLP</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> TensorFlow</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Flask</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> OpenAI API</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> DocTran</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">An AI-powered email automation system using NLP, DocTran, API.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/automail-ai" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/image_enhance.png" alt="Image Enhancement with OpenCV DNN - Computer Vision" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">Image Enhancement with OpenCV DNN - Computer Vision</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> OpenCV</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> CUDA</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Mini Python code for image super resolution using DNN in OpenCV, trying out LapSRN and EDSR.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/Super-Resolution" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/nba_predictor.png" alt="NBA Influence Predictor - Data Analysis" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">NBA Influence Predictor - Data Analysis</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> R</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> pandas</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> statsmodels</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> matplotlib</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Python &amp; R project predicting NBA player &amp; team valuations based on various factors.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/NBAInfluencePredictor" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card relative overflow-hidden rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
-            <div class="aspect-w-16 aspect-h-9 overflow-hidden relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-accent-light/20 to-accent-light/20 dark:from-accent-dark/20 dark:to-accent-dark/20 z-10"></div>
-                <img src="../../images/projects/nyc_parks.jpg" alt="NYC Parks Eventful Mongoers - Web Development" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 z-20"></div>
-                
-                
-                <div class="absolute inset-0 z-30 p-4 pb-3 md:p-6 md:pb-4 flex flex-col justify-end transform transition-transform duration-500 translate-y-0 group-hover:translate-y-[-20px]">
-                    <h3 class="text-xl md:text-2xl font-bold mb-1.5 md:mb-2 text-white line-clamp-2">NYC Parks Eventful Mongoers - Web Development</h3>
-                    <div class="flex flex-wrap gap-1 md:gap-2 mb-1.5 md:mb-3">
-                        
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white">Python</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Flask</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Node.js</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> MongoDB</span>
-                        
-                        <span class="px-1.5 md:px-2 py-0.5 bg-neutral-700/30 backdrop-blur-sm rounded-md text-[10px] md:text-xs font-medium text-white"> Mapbox</span>
-                        
-                    </div>
-                    <p class="hidden md:block text-sm text-white mb-3 line-clamp-3 md:line-clamp-4">Web app that discovers NYC Parks events via text &amp; map search using Python, Flask, Node.js, and MongoDB.</p>
-                    
-                    
-                    <a href="https://github.com/prxshetty/mongo-project-eventfulmongoers" class="bg-accent-light/90 dark:bg-accent-dark/90 backdrop-blur-sm hover:bg-accent-light dark:hover:bg-accent-dark text-neutral-800 dark:text-white text-xs md:text-sm font-medium py-1 md:py-1.5 px-2 md:px-3 rounded-md inline-block transition-all duration-300 transform opacity-100 md:opacity-0 group-hover:opacity-100 w-fit flex items-center shadow-lg hover:shadow-xl">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="ml-1 w-3.5 h-3.5 transition-transform duration-200 transform group-hover:translate-x-1"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </a>
                 </div>
@@ -788,52 +530,55 @@
 </div>
 
 <style>
-.project-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-     
-    @apply bg-bg-primary-light dark:bg-bg-secondary-dark;
-    backdrop-filter: blur(10px);
-}
+    .project-card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+         
+        @apply bg-bg-primary-light dark:bg-bg-secondary-dark;
+        backdrop-filter: blur(10px);
+    }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-    border-color: rgba(2, 132, 199, 0.5);  
-}
-html.dark .project-card:hover {
-    border-color: rgba(14, 165, 233, 0.5);  
-}
-
-.aspect-w-16 {
-    position: relative;
-    padding-bottom: 56.25%;
-}
-
-.aspect-w-16 > img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    object-fit: cover;
-    filter: saturate(1.1) contrast(1.1);
-}
-
-@media (max-width: 768px) {
     .project-card:hover {
-        transform: none;
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+        border-color: rgba(2, 132, 199, 0.5);
+         
     }
-    
-    .project-card .group-hover\:translate-y-\[-20px\] {
-        transform: translateY(-10px);
+
+    html.dark .project-card:hover {
+        border-color: rgba(14, 165, 233, 0.5);
+         
     }
-}
+
+    .aspect-w-16 {
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+
+    .aspect-w-16>img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        filter: saturate(1.1) contrast(1.1);
+    }
+
+    @media (max-width: 768px) {
+        .project-card:hover {
+            transform: none;
+        }
+
+        .project-card .group-hover\:translate-y-\[-20px\] {
+            transform: translateY(-10px);
+        }
+    }
 </style>
 
         </main>
@@ -843,8 +588,8 @@ html.dark .project-card:hover {
         <div class="border-t border-border-primary-light dark:border-border-primary-dark pt-5">
             <div class="flex flex-col items-center justify-center gap-2">
                                 
-                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm ">© 2025 Pranam Shetty</p>
-                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">Hugo</a>. Take a look at my <a href="https://github.com/prxshetty" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">GitHub</a></p>
+                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm ">© 2025 Devansh Srivastava</p>
+                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">Hugo</a>. Take a look at my <a href="https://github.com/devansh-srv" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">GitHub</a></p>
             </div>
         </div>
     </div>

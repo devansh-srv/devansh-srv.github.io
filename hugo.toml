@@ -105,24 +105,6 @@ kaggle ="https://www.kaggle.com/devanshsrv"
 kaggle_username = "devanshsrv"
 instagram = "https://www.instagram.com/devansh2010/"
 
-# [[params.experience]]
-# company = "GitHub"
-# role = "Open Source Contributor"
-# period = "June 2023 - Present"
-# description = "Contributing to open source projects"
-# github_username = "devansh-srv"
-#
-# [[params.experience]]
-# company = "IIT Ropar"
-# role = "Research Intern"
-# period = "May 2025 - Present"
-# description = "Contributing to MERN stack Projects"
-# github_username = "devansh-srv"
-#
-# [[params.honors]]
-# institution = "IIIT Naya Raipur"
-# title = "9.26"
-# date = "December 2024"
 
 # [[params.projects]]
 # title = "Carbon Credits"

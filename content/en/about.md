@@ -4,6 +4,7 @@ date: 2025-04-23T21:55:00+05:30
 draft: false
 menu: "main"
 description: "Learn more about me and my background"
+layout: "about"
 ---
 I am a B.Tech student at IIIT Naya Raipur, specializing in Data Science and Artificial Intelligence.
 
