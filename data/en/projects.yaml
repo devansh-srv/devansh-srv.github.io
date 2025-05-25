@@ -10,3 +10,33 @@ projects:
     tech : "C, CMake, Event Loops, Data Structures"
     image : "/images/projects/carrot.png"
     link : "https://github.com/devansh-srv/carrot"
+  
+  - title : "Behaviour Analysis"
+    description : "A Machine Learning Framework that estimates Facial Expressions and Body Posture using Convolutional Nerual Nets and Mediapipe"
+    tech : "TensorFlow, Mediapipe, Convolutional Nerual Nets"
+    image : "/images/projects/behaviour.png"
+    link : "https://github.com/devansh-srv/BehaviourAnalysis"
+
+  - title : "HTTP server"
+    description : "A simple HTTP server built in Rust which I built to understand network programming in Rust"
+    tech : "Rust, Cargo"
+    image : "/images/projects/rust.png"
+    link : "https://github.com/devansh-srv/HTTPserver"
+
+  - title : "Premiere League Prediction App"
+    description : "A Full-Stack app to predict the performance of football players playing in the English Premiere League using XGBoost and data scraped using Sofascore built in a Hackathon"
+    tech : "JavaScript, XGBoost, Python, Docker, Selenium"
+    image : "/images/projects/prem.png"
+    link : "https://github.com/devansh-srv/Hack-a-Sol"
+
+  - title : "Asset Manager"
+    description : "An game asset manager built for popular game engine Godot using C# over .NET which uses assets from itch.io"
+    tech : "C#, Selenium"
+    image : "/images/projects/godot.png"
+    link : "https://github.com/vanshjangir/AssetManager"
+
+  - title : "XenoAI 2.0"
+    description : "A game built on Unreal Engine 5.1 where the player is relentlessly chased by an simple enemy AI character with optical perception and auditory perception"
+    tech : "Unreal Engine, Blueprint Programming"
+    image : "/images/projects/xeno.png"
+    link : "https://github.com/R0gue-one/XenoAI_2"

@@ -1,16 +1,16 @@
 experience:
   - company: "IIT Ropar"
     company_link: "https://www.iitrpr.ac.in/" 
-    role: "Research Intern"
-    period: "May 2025 - Present"
+    role: "Summer Intern"
+    period: "May 2025 - July 2025"
     country: "India"
     logo: "/images/company/goodfin.png"
-    description: "Conducting research on improving classic classroom setting using AI and Deep Learning Techniques and TypeScript"
+    description: "As an intern I worked over an AI-powered learning platform where I implemented authentication and session management service, secured API endpoints using JWT middleware and Role Based Access for Students and Admin, MongoDB schema and indexing for User and Course model, Cloudinary data pipeline for storing Course details in PDF files for further processing by ChatBot, automated YouTube video ingestion service using YouTube Data API and deployement of services using vercel and render."
     responsibilities:
 
   - company: "GitHub"
-    company_link: "https://github.com"
+    company_link: "https://github.com/devansh-srv"
     role: "Open Source Contributor"
-    period: "Jun 2023 - Now"
-    description: "I actively try to contribute to Open Source on my GitHub"
+    period: "Jan 2025 - Now"
+    description: "I am a contributor at SageMath which is a free open-source mathematics software system licensed under the GPL. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. Access their combined power through a common, Python-based language or directly via interfaces or wrappers."
     github_username: "devansh-srv" 
