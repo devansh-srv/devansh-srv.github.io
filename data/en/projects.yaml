@@ -2,11 +2,11 @@ projects:
   - title : "Carbon Credits"
     description : "A decentralized Carbon Credit trading platform leveraging React, Flask, and Solidity, promoting transparency and accountability in CSR activities."
     tech : "Ethereum, Sepolia API, Hardhat, EthersJs "
-    image : "/assets/carbon.png"
+    image : "/images/projects/carbon.png"
     link : "https://github.com/devansh-srv/Carbon-Credit"
 
   - title : "Carrot"
     description : "A Redis-like Key-Value Database which supports basic KV operations and sorted sets"
     tech : "C, CMake, Event Loops, Data Structures"
-    image : "/assets/carrot.png"
+    image : "/images/projects/carrot.png"
     link : "https://github.com/devansh-srv/carrot"
