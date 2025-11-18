@@ -1,4 +1,12 @@
 experience:
+  - company: "Karya Inc."
+    company_link: "https://www.karya.in/" 
+    role: "Data Engineer Intern"
+    period: "Nov 2025 - Present"
+    country: "India"
+    logo: "/images/company/goodfin.png"
+    description: "Developed and optimized automated ETL pipelines using Bash and Python scripts, facilitating seamless data ingestion and processing from diverse sources. Collaborated with cross-functional teams to gather data requirements, designing scalable ETL solutions that enhance data accessibility and usability"
+    responsibilities:
   - company: "IIT Ropar"
     company_link: "https://www.iitrpr.ac.in/" 
     role: "Summer Intern"
